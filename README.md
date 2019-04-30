@@ -1,4 +1,5 @@
 # Machine Learning Algorithms
+![SciKit-Learn ML Roadmap](/ml_map_reduced.png)
 Coding Popular Machine Learning Algorithms from Scratch
 
 ## Algorithms
