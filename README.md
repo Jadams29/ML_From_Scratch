@@ -1,5 +1,7 @@
 # Machine Learning Algorithms
 ![SciKit-Learn ML Roadmap](/ml_map.jpg)
+[![Licensed under the MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Microsoft/BosqueLanguage/blob/master/LICENSE.txt)
+[![PR's Welcome](https://img.shields.io/badge/PRs%20-welcome-brightgreen.svg)](#contribute)
 Coding Popular Machine Learning Algorithms from Scratch
 
 ## Algorithms
@@ -22,3 +24,5 @@ Coding Popular Machine Learning Algorithms from Scratch
 * [Decision Trees](https://medium.com/@itexpert/the-complete-guide-to-learn-machine-learning-from-scratch-46a6734acda6)
 * [Decision Trees](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
 * [Decision Trees](https://medium.com/@randylaosat/a-beginners-guide-to-machine-learning-dfadc19f6caf)
+
+
