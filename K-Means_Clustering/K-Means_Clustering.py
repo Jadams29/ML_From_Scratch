@@ -1,7 +1,5 @@
 from scripts import*
 import numpy as np
-import pandas
-import random
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import cm
 

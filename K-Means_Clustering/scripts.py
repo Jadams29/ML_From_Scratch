@@ -64,8 +64,7 @@ def distribute_nodes(centroids, nodes, nodes_final_location, subplot, plot_key_l
         t_0 = nodes[:, t]
         centroids[i].nodes = np.asarray([t_0[0], t_0[1]])
         edgecolors = "black"
-        # if centroids[i].centroid_color.lower() == "black":
-        #     edgecolors = "yellow"
+
         # Adding the nodes to the Scatterplot
         subplot.scatter(centroids[i].nodes[0], centroids[i].nodes[1],
                         c=centroids[i].centroid_color, label=plot_key_list[i], alpha=0.3)
@@ -80,11 +79,6 @@ def distribute_nodes(centroids, nodes, nodes_final_location, subplot, plot_key_l
         centroids[i].y = int(avg_y)
         centroids[i].nodes = []
         print()
-    return
-
-
-def test():
-
     return
 
 
