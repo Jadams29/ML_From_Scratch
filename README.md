@@ -1,8 +1,9 @@
 # Machine Learning Algorithms
 ![SciKit-Learn ML Roadmap](/ml_map.jpg)
+Coding Popular Machine Learning Algorithms from Scratch
 [![Licensed under the MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Microsoft/BosqueLanguage/blob/master/LICENSE.txt)
 [![PR's Welcome](https://img.shields.io/badge/PRs%20-welcome-brightgreen.svg)](#contribute)
-Coding Popular Machine Learning Algorithms from Scratch
+
 
 ## Algorithms
 * [Decision Trees](https://github.com/Jadams29/ML_From_Scratch/tree/master/Decision_Trees)
@@ -15,7 +16,7 @@ Coding Popular Machine Learning Algorithms from Scratch
 * [Random Forest](https://github.com/Jadams29/ML_From_Scratch/tree/master/Random_Forest)
 * [Support Vector Machines](https://github.com/Jadams29/ML_From_Scratch/tree/master/Support_Vector_Machine)
 
-
+## Some Links
 * [Decision Trees](https://blog.usejournal.com/a-beginners-guide-to-machine-learning-5f20f884d574)
 * [Decision Trees](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/)
 * [Decision Trees](https://medium.freecodecamp.org/machine-learning-how-to-go-from-zero-to-hero-40e26f8aa6da)
