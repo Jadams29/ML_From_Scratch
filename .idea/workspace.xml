@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38103053-f810-4fbd-b4e7-12912b7e8835" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="38103053-f810-4fbd-b4e7-12912b7e8835" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/K-Means_Clustering/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="578">
-                <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+              <first_editor relative-caret-position="629">
+                <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -75,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1927" />
     <option name="width" value="1727" />
     <option name="height" value="1047" />
@@ -200,12 +198,12 @@
       <workItem from="1556716022543" duration="5830000" />
       <workItem from="1556730400285" duration="255000" />
       <workItem from="1556730821385" duration="3029000" />
-      <workItem from="1556735539570" duration="1025000" />
+      <workItem from="1556735539570" duration="1384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15499000" />
+    <option name="totallyTimeSpent" value="15858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -230,9 +228,9 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" x="-1563" y="199" width="1206" height="641" id="SciView" order="3" sideWeight="0.6966414" visible="true" weight="0.26705757" />
+      <window_info active="true" anchor="right" x="-1563" y="199" width="1206" height="641" id="SciView" order="3" sideWeight="0.6966414" visible="true" weight="0.21481876" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.3033586" side_tool="true" visible="true" weight="0.26705757" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.3033586" side_tool="true" visible="true" weight="0.21481876" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,8 +383,8 @@
     <entry file="file://$PROJECT_DIR$/K-Means_Clustering/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="578">
-            <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <first_editor relative-caret-position="629">
+            <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
