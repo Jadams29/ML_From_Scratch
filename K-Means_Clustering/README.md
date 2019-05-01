@@ -33,11 +33,13 @@ Centroids = Create_K_Centroids(k, k_centroids=np.random.randint(0, 1000, size=(2
 * Iterate over the nodes and assign them to the centroid which is closest based on euclidean distance. Set the color 
 of each node based on the centroid in which it belongs.
 <img src="img/Euclidean_Distance_Formula.png">
+
 ```python
 def distance1(x1, y1, x2, y2):
     # sqrt( (X1-X2)^2 + (Y1-Y2)^2 )
     return math.sqrt(math.pow((x1 - x2), 2) + math.pow((y1 - y2), 2))
 ```
+
 <img src="img/K-Means_Clustering_Plot_1.png" width="320" height="240">
 
 * For each Centroid calculate the mean of the nodes that are assigned to it. Move the centroid to that calculated mean.
