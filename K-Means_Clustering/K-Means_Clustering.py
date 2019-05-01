@@ -63,8 +63,4 @@ if __name__ == "__main__":
             plt.savefig("img/K-Means_Clustering_Plot_{}.png".format(temp))
             plt.show()
 
-            print()
-
-
-
     print("Finished")

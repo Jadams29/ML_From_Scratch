@@ -31,9 +31,13 @@ class Centroid:
 
 
 class Node:
-    def __init__(self, x=0, y=0):
+    def __init__(self, x=0, y=0, centroid=None):
         self.x = float(x)
         self.y = float(y)
+        self.centroid = centroid
+
+    def set_centroid(self, centroid):
+        self.centroid = centroid
 
 
 def distance(node1, node2):
@@ -50,7 +54,7 @@ def Create_K_Centroids(number_of_centroids, k_centroids, colors):
     centroid_array = []
     for i in range(number_of_centroids):
         centroid = Centroid([], name=str(i), centroid_node=Node(k_centroids[0][i], k_centroids[1][i]),
-                            centroid_color=colors[i], node_color=colors[i])
+                            centroid_color=color_list_1[i], node_color=color_list_1[i])
         centroid_array.append(centroid)
     return np.asarray(centroid_array)
 
