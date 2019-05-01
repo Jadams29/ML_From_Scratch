@@ -20,6 +20,6 @@ location. All nodes should be reassigned to the centroids, if situation occurs r
 
 ## Steps
 * Generate K Centroids and randomly assign them locations 
-![K-Means Clustering](img/K-Means_Clustering_Plot_1.png | width=100)
-# TEST
-<img src="img/K-Means_Clustering_Plot_1.png" width="100" height="100">
+<img src="img/K-Means_Clustering_Plot_0.png" width="320" height="240">
+
+* Iterate

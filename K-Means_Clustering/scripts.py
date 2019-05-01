@@ -56,18 +56,21 @@ def Create_K_Centroids(number_of_centroids, k_centroids, colors):
     return np.asarray(centroid_array)
 
 
-def distribute_nodes(centroids, nodes, nodes_final_location, subplot, plot_key_list):
+def distribute_nodes(centroids, nodes, nodes_final_location, subplot, plot_key_list, initial=False):
 
     for i in range(len(centroids)):
-        centroids[i].describe()
         t = np.where(nodes_final_location == i)
         t_0 = nodes[:, t]
         centroids[i].nodes = np.asarray([t_0[0], t_0[1]])
+        if initial:
+            node_color = 'black'
+        else:
+            node_color = centroids[i].centroid_color
         edgecolors = "black"
 
         # Adding the nodes to the Scatterplot
         subplot.scatter(centroids[i].nodes[0], centroids[i].nodes[1],
-                        c=centroids[i].centroid_color, label=plot_key_list[i], alpha=0.3, edgecolors=edgecolors)
+                        c=node_color, label=plot_key_list[i], alpha=0.3, edgecolors=edgecolors)
         # Adding the Centroids to the Scatterplot
         subplot.scatter([centroids[i].centroid_node.x], [centroids[i].centroid_node.y],
                         c=centroids[i].centroid_color, s=300,
@@ -78,7 +81,7 @@ def distribute_nodes(centroids, nodes, nodes_final_location, subplot, plot_key_l
         centroids[i].x = int(avg_x)
         centroids[i].y = int(avg_y)
         centroids[i].nodes = []
-        print()
+
     return
 
 
