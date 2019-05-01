@@ -87,22 +87,22 @@ def distribute_nodes(centroids, nodes, nodes_final_location, subplot, plot_key_l
     return
 
 
-def quick_k_means(k, data, centroids, dist_mapper):
-    # K = the number of centroids to make
-    # data = Nodes
-    # Centroids = Starting Centroids
-    prev_locations = []
-    for k in range(51):
-        temp_locations = [[i.centroid_node.x, i.centroid_node.y] for i in centroids]
-        if temp_locations in prev_locations:
-            break
-        else:
-            node_grouping = np.asarray([np.argmin(dist_mapper(i, centroids)) for i in data])
-            for cent in range(len(centroids)):
-                avg_x = data[np.where(node_grouping==cent)]
-                print()
-
-    print()
+# def quick_k_means(k, data, centroids, dist_mapper):
+#     # K = the number of centroids to make
+#     # data = Nodes
+#     # Centroids = Starting Centroids
+#     prev_locations = []
+#     for k in range(51):
+#         temp_locations = [[i.centroid_node.x, i.centroid_node.y] for i in centroids]
+#         if temp_locations in prev_locations:
+#             break
+#         else:
+#             node_grouping = np.asarray([np.argmin(dist_mapper(i, centroids)) for i in data])
+#             for cent in range(len(centroids)):
+#                 avg_x = data[np.where(node_grouping==cent)]
+#                 print()
+#
+#     print()
 
 
     return

@@ -37,38 +37,38 @@ if __name__ == "__main__":
     Centroids_2 = Create_K_Centroids(k, k_centroids=test_for_centroids, colors=color_list)
     previous_centroid_cords = []
     initial = False
-    # for temp in range(51):
-    #     with plt.style.context('bmh'):
-    #         if temp == 0:
-    #             initial = True
-    #         else:
-    #             initial = False
-    #         fig, ax = plt.subplots()  # Create a new plot for each iteration
-    #
-    #         # Generate a list of of centroid coordinates
-    #         temp_centroid_cords = [[i.x, i.y] for i in Centroids_1]
-    #         # Check if the current cords have previously been used, if so we break, else we continue through
-    #         if temp_centroid_cords in previous_centroid_cords:
-    #             # The centroids did not move
-    #             break
-    #         else:
-    #             previous_centroid_cords.append(temp_centroid_cords)
-    #
-    #         # Determine which centroid each node belows to.
-    #         node_distribution = np.asarray([np.argmin(Distance_Mapper(i, Centroids_1)) for i in Nodes_1])
-    #         plot_key_list = ["Centroid_{}".format(i + 1) for i in range(len(Centroids_1))]
-    #         # Distribute the nodes to their respective centroids
-    #         distribute_nodes(Centroids_1, nodes=nodes, nodes_final_location=node_distribution,
-    #                          subplot=ax, plot_key_list=plot_key_list, initial=initial)
-    #         # Establish the title for the scatter plot
-    #         plt.title('K-Means Clustering')
-    #         ax.legend(loc='upper center', bbox_to_anchor=(1.0, 1.0), shadow=True, ncol=1, prop={'size': 8})
-    #         ax.grid(True)
-    #         # plt.savefig("img/K-Means_Clustering_Plot_{}.png".format(temp))
-    #         plt.show()
+    for temp in range(51):
+        with plt.style.context('bmh'):
+            if temp == 0:
+                initial = True
+            else:
+                initial = False
+            fig, ax = plt.subplots()  # Create a new plot for each iteration
+
+            # Generate a list of of centroid coordinates
+            temp_centroid_cords = [[i.x, i.y] for i in Centroids_1]
+            # Check if the current cords have previously been used, if so we break, else we continue through
+            if temp_centroid_cords in previous_centroid_cords:
+                # The centroids did not move
+                break
+            else:
+                previous_centroid_cords.append(temp_centroid_cords)
+
+            # Determine which centroid each node belows to.
+            node_distribution = np.asarray([np.argmin(Distance_Mapper(i, Centroids_1)) for i in Nodes_1])
+            plot_key_list = ["Centroid_{}".format(i + 1) for i in range(len(Centroids_1))]
+            # Distribute the nodes to their respective centroids
+            distribute_nodes(Centroids_1, nodes=nodes, nodes_final_location=node_distribution,
+                             subplot=ax, plot_key_list=plot_key_list, initial=initial)
+            # Establish the title for the scatter plot
+            plt.title('K-Means Clustering')
+            ax.legend(loc='upper center', bbox_to_anchor=(1.0, 1.0), shadow=True, ncol=1, prop={'size': 8})
+            ax.grid(True)
+            # plt.savefig("img/K-Means_Clustering_Plot_{}.png".format(temp))
+            plt.show()
     # for centroid in Centroids_1:
     #     centroid.describe()
-
-    quick_k_means(k, Nodes_2, Centroids_2, dist_mapper=Distance_Mapper)
+    #
+    # quick_k_means(k, Nodes_2, Centroids_2, dist_mapper=Distance_Mapper)
 
     print("Finished")
