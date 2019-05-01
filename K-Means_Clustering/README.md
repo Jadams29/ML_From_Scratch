@@ -53,9 +53,7 @@ for nodes which change association.
 * Repeat until the Centroids no longer move.
 
 <img src="img/K-Means_Clustering_Plot_4.png" width="320" height="240">
-    *
-    *
-    * 
+
 <img src="img/K-Means_Clustering_Plot_32.png" width="320" height="240">
 
 * If a centroid does not get any nodes assigned to it, randomly generate a new location for that centroid. 
