@@ -1,7 +1,5 @@
 import math
 import numpy as np
-from matplotlib.pyplot import cm
-
 
 color_list_1 = ["blue", "green", "red", "brown", "magenta", "orange", "black"]
 
@@ -31,6 +29,7 @@ class Centroid:
         print()
         return
 
+
 class Node:
     def __init__(self, x=0, y=0):
         self.x = float(x)
@@ -51,7 +50,7 @@ def Create_K_Centroids(number_of_centroids, k_centroids, colors):
     centroid_array = []
     for i in range(number_of_centroids):
         centroid = Centroid([], name=str(i), centroid_node=Node(k_centroids[0][i], k_centroids[1][i]),
-                            centroid_color=color_list_1[i], node_color=color_list_1[i])
+                            centroid_color=colors[i], node_color=colors[i])
         centroid_array.append(centroid)
     return np.asarray(centroid_array)
 
@@ -81,13 +80,4 @@ def distribute_nodes(centroids, nodes, nodes_final_location, subplot, plot_key_l
         centroids[i].x = int(avg_x)
         centroids[i].y = int(avg_y)
         centroids[i].nodes = []
-
     return
-
-
-def K_Means(centroids, nodes):
-
-    return
-
-
-

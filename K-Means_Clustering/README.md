@@ -17,15 +17,28 @@ again and assign them to the closest centroid, repeat until the centroids stop m
 location. All nodes should be reassigned to the centroids, if situation occurs repeat these steps) 
  
  To determine an optimal number of centroids (K) you can use the elbow method. (DESCRIBE ELBOW METHOD)
-
+## Setup
+* Install libraries
+```commandline
+pip install -r requirements.txt
+```
 ## Steps
 * Generate K Centroids and randomly assign them locations 
+```python
+Centroids = Create_K_Centroids(k, k_centroids=np.random.randint(0, 1000, size=(2, k)), colors=color_list)
+```
 
 <img src="img/K-Means_Clustering_Plot_0.png" width="320" height="240">
 
+
 * Iterate over the nodes and assign them to the centroid which is closest based on euclidean distance. Set the color 
 of each node based on the centroid in which it belongs.
-
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b48fad52918eb76d14c4f17973ae210f7c1a6312" width="320" height="240">
+```python
+def distance1(x1, y1, x2, y2):
+    # sqrt( (X1-X2)^2 + (Y1-Y2)^2 )
+    return math.sqrt(math.pow((x1 - x2), 2) + math.pow((y1 - y2), 2))
+```
 <img src="img/K-Means_Clustering_Plot_1.png" width="320" height="240">
 
 * For each Centroid calculate the mean of the nodes that are assigned to it. Move the centroid to that calculated mean.
