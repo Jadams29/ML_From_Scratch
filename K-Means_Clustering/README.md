@@ -27,8 +27,7 @@ pip install -r requirements.txt
 ```python
 Centroids = Create_K_Centroids(k, k_centroids=np.random.randint(0, 1000, size=(2, k)), colors=color_list)
 ```
-
-<img src="img/K-Means_Clustering_Plot_0.png" width="320" height="240">
+<img src="img/K-Means_Clustering_Plot_0.png" width="160" height="120">
 
 
 * Iterate over the nodes and assign them to the centroid which is closest based on euclidean distance. Set the color 
