@@ -1,5 +1,5 @@
 # K-Means Clustering
-![SciKit-Learn ML Roadmap](/ml_map.jpg)
+![K-Means Clustering](/img/K-Means_Clustering_Gif.gif)
 Coding Popular Machine Learning Algorithms from Scratch
 
 ## Algorithms
