@@ -1,5 +1,6 @@
 # K-Means Clustering
 ![K-Means Clustering](img/K-Means_Clustering_Gif.gif)
+
 Coding Popular Machine Learning Algorithms from Scratch
 
 ## Algorithms
@@ -16,3 +17,9 @@ again and assign them to the closest centroid, repeat until the centroids stop m
 location. All nodes should be reassigned to the centroids, if situation occurs repeat these steps) 
  
  To determine an optimal number of centroids (K) you can use the elbow method. (DESCRIBE ELBOW METHOD)
+
+## Steps
+* Generate K Centroids and randomly assign them locations 
+![K-Means Clustering](img/K-Means_Clustering_Plot_1.png | width=100)
+# TEST
+<img src="img/K-Means_Clustering_Plot_1.png" width="100" height="100">
