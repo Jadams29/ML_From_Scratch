@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38103053-f810-4fbd-b4e7-12912b7e8835" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/K-Means_Clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/K-Means_Clustering.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/K-Means_Clustering/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Gif.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_17.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_18.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/img/K-Means_Clustering_Plot_9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/scripts.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,23 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/K-Means_Clustering/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="357">
-                <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+              <first_editor relative-caret-position="689">
+                <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/K-Means_Clustering/K-Means_Clustering.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="323">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -70,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/K-Means_Clustering/scripts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+            <state relative-caret-position="55">
+              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -97,13 +69,13 @@
         <option value="$PROJECT_DIR$/Random_Forest/README.md" />
         <option value="$PROJECT_DIR$/Support_Vector_Machine/README.md" />
         <option value="$PROJECT_DIR$/K-Means_Clustering/img/README.md" />
-        <option value="$PROJECT_DIR$/K-Means_Clustering/README.md" />
         <option value="$PROJECT_DIR$/K-Means_Clustering/scripts.py" />
         <option value="$PROJECT_DIR$/K-Means_Clustering/K-Means_Clustering.py" />
+        <option value="$PROJECT_DIR$/K-Means_Clustering/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1927" />
     <option name="width" value="1727" />
     <option name="height" value="1047" />
@@ -227,24 +199,24 @@
       <workItem from="1556654092418" duration="1799000" />
       <workItem from="1556716022543" duration="5830000" />
       <workItem from="1556730400285" duration="255000" />
-      <workItem from="1556730821385" duration="2006000" />
+      <workItem from="1556730821385" duration="3029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13451000" />
+    <option name="totallyTimeSpent" value="14474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974093" visible="true" weight="0.15511727" />
-      <window_info id="Structure" order="1" sideWeight="0.50259066" side_tool="true" visible="true" weight="0.15511727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49729145" visible="true" weight="0.15511727" />
+      <window_info id="Structure" order="1" sideWeight="0.50270855" side_tool="true" visible="true" weight="0.15511727" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3726977" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3726977" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -257,13 +229,24 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" x="-1563" y="199" width="1206" height="641" id="SciView" order="3" sideWeight="0.69602764" visible="true" weight="0.26705757" />
+      <window_info anchor="right" x="-1563" y="199" width="1206" height="641" id="SciView" order="3" sideWeight="0.6977248" visible="true" weight="0.26705757" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.30397236" side_tool="true" visible="true" weight="0.26705757" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.30227518" side_tool="true" visible="true" weight="0.26705757" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/K-Means_Clustering/K-Means_Clustering.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/numpy/core/numeric.py">
@@ -378,20 +361,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/K-Means_Clustering/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/K-Means_Clustering/scripts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        <state relative-caret-position="55">
+          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -400,11 +373,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/K-Means_Clustering/K-Means_Clustering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="323">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-Means_Clustering/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="689">
+            <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

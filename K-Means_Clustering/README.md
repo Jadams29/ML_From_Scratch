@@ -20,6 +20,33 @@ location. All nodes should be reassigned to the centroids, if situation occurs r
 
 ## Steps
 * Generate K Centroids and randomly assign them locations 
+
 <img src="img/K-Means_Clustering_Plot_0.png" width="320" height="240">
 
-* Iterate
+* Iterate over the nodes and assign them to the centroid which is closest based on euclidean distance. Set the color 
+of each node based on the centroid in which it belongs.
+
+<img src="img/K-Means_Clustering_Plot_1.png" width="320" height="240">
+
+* For each Centroid calculate the mean of the nodes that are assigned to it. Move the centroid to that calculated mean.
+
+<img src="img/K-Means_Clustering_Plot_2.png" width="320" height="240">
+
+* Re-Distribute the nodes to the centroid which is determined to be closest based on euclidean distance. Update colors 
+for nodes which change association. 
+
+<img src="img/K-Means_Clustering_Plot_3.png" width="320" height="240">
+
+* Repeat until the Centroids no longer move.
+
+<img src="img/K-Means_Clustering_Plot_4.png" width="320" height="240">
+    *
+    *
+    * 
+<img src="img/K-Means_Clustering_Plot_32.png" width="320" height="240">
+
+* If a centroid does not get any nodes assigned to it, randomly generate a new location for that centroid. 
+then re-distribute the nodes.
+
+
+
