@@ -45,9 +45,9 @@ def distance(node1, node2):
     return math.sqrt(math.pow((node1.x - node2.x), 2) + math.pow((node1.y - node2.y), 2))
 
 
-def distance1(x1, y1, x2, y2):
+def distance1(x1, y1, centroid):
     # sqrt( (X1-X2)^2 + (Y1-Y2)^2 )
-    return math.sqrt(math.pow((x1 - x2), 2) + math.pow((y1 - y2), 2))
+    return math.sqrt(math.pow((x1 - centroid.x), 2) + math.pow((y1 - centroid.y), 2))
 
 
 def Create_K_Centroids(number_of_centroids, k_centroids, colors):
@@ -84,4 +84,25 @@ def distribute_nodes(centroids, nodes, nodes_final_location, subplot, plot_key_l
         centroids[i].x = int(avg_x)
         centroids[i].y = int(avg_y)
         centroids[i].nodes = []
+    return
+
+
+def quick_k_means(k, data, centroids, dist_mapper):
+    # K = the number of centroids to make
+    # data = Nodes
+    # Centroids = Starting Centroids
+    prev_locations = []
+    for k in range(51):
+        temp_locations = [[i.centroid_node.x, i.centroid_node.y] for i in centroids]
+        if temp_locations in prev_locations:
+            break
+        else:
+            node_grouping = np.asarray([np.argmin(dist_mapper(i, centroids)) for i in data])
+            for cent in range(len(centroids)):
+                avg_x = data[np.where(node_grouping==cent)]
+                print()
+
+    print()
+
+
     return
