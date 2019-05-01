@@ -32,7 +32,7 @@ Centroids = Create_K_Centroids(k, k_centroids=np.random.randint(0, 1000, size=(2
 
 * Iterate over the nodes and assign them to the centroid which is closest based on euclidean distance. Set the color 
 of each node based on the centroid in which it belongs.
-<img src="Euclidean_Distance_Formula.png" width="160" height="120">
+<img src="img/Euclidean_Distance_Formula.png" width="160" height="120">
 ```python
 def distance1(x1, y1, x2, y2):
     # sqrt( (X1-X2)^2 + (Y1-Y2)^2 )
