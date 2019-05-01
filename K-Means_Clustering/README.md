@@ -1,5 +1,5 @@
 # K-Means Clustering
-![K-Means Clustering](/img/K-Means_Clustering_Gif.gif)
+![K-Means Clustering](K-Means_Clustering_Gif.gif)
 Coding Popular Machine Learning Algorithms from Scratch
 
 ## Algorithms
