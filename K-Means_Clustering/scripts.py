@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib.pyplot import cm
 
 
-color_list = ["blue", "green", "red", "cyan", "magenta", "yellow", "black"]
+color_list_1 = ["blue", "green", "red", "brown", "magenta", "orange", "black"]
 
 class Centroid:
     def __init__(self, nodes=[], name=None, centroid_node=None, centroid_color='black', node_color='black', mean=None):
@@ -51,7 +51,7 @@ def Create_K_Centroids(number_of_centroids, k_centroids, colors):
     centroid_array = []
     for i in range(number_of_centroids):
         centroid = Centroid([], name=str(i), centroid_node=Node(k_centroids[0][i], k_centroids[1][i]),
-                            centroid_color=colors[i], node_color=colors[i])
+                            centroid_color=color_list_1[i], node_color=color_list_1[i])
         centroid_array.append(centroid)
     return np.asarray(centroid_array)
 
@@ -67,7 +67,7 @@ def distribute_nodes(centroids, nodes, nodes_final_location, subplot, plot_key_l
 
         # Adding the nodes to the Scatterplot
         subplot.scatter(centroids[i].nodes[0], centroids[i].nodes[1],
-                        c=centroids[i].centroid_color, label=plot_key_list[i], alpha=0.3)
+                        c=centroids[i].centroid_color, label=plot_key_list[i], alpha=0.3, edgecolors=edgecolors)
         # Adding the Centroids to the Scatterplot
         subplot.scatter([centroids[i].centroid_node.x], [centroids[i].centroid_node.y],
                         c=centroids[i].centroid_color, s=300,
