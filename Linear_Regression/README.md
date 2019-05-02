@@ -5,7 +5,7 @@
 
 #### Least Squares
 
-<img src="img/Least_Square_Formula.png" width="320" height="80">
+<img src="img/Least_Square_Formula.png" width="320" height="60">
 
 For every data point you take the known y value and subtract the predicted y value then square the result.
 We then add up all of the results and try to minimize this summation.
