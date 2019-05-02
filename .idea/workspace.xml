@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38103053-f810-4fbd-b4e7-12912b7e8835" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/K-Means_Clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/K-Means_Clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decision_Trees/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Decision_Trees/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gradient_Boosting/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Gradient_Boosting/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K-Means_Clustering/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/K-Means_Clustering/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/K-Nearest_Neighbors/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/K-Nearest_Neighbors/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Linear_Regression/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Linear_Regression/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logistic_Regression/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Logistic_Regression/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Naive_Bayes_Classifier/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Naive_Bayes_Classifier/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Random_Forest/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Random_Forest/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Support_Vector_Machine/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Support_Vector_Machine/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/Linear_Regression/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="788">
+              <first_editor relative-caret-position="816">
                 <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               </first_editor>
               <second_editor />
@@ -37,17 +45,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Decision_Trees/README.md" />
-        <option value="$PROJECT_DIR$/Gradient_Boosting/README.md" />
+        <option value="$PROJECT_DIR$/K-Means_Clustering/img/README.md" />
+        <option value="$PROJECT_DIR$/K-Means_Clustering/scripts.py" />
+        <option value="$PROJECT_DIR$/K-Means_Clustering/K-Means_Clustering.py" />
+        <option value="$PROJECT_DIR$/K-Means_Clustering/README.md" />
         <option value="$PROJECT_DIR$/K-Nearest_Neighbors/README.md" />
         <option value="$PROJECT_DIR$/Logistic_Regression/README.md" />
         <option value="$PROJECT_DIR$/Naive_Bayes_Classifier/README.md" />
         <option value="$PROJECT_DIR$/Random_Forest/README.md" />
         <option value="$PROJECT_DIR$/Support_Vector_Machine/README.md" />
-        <option value="$PROJECT_DIR$/K-Means_Clustering/img/README.md" />
-        <option value="$PROJECT_DIR$/K-Means_Clustering/README.md" />
-        <option value="$PROJECT_DIR$/K-Means_Clustering/scripts.py" />
-        <option value="$PROJECT_DIR$/K-Means_Clustering/K-Means_Clustering.py" />
+        <option value="$PROJECT_DIR$/Gradient_Boosting/README.md" />
+        <option value="$PROJECT_DIR$/Decision_Trees/README.md" />
         <option value="$PROJECT_DIR$/Linear_Regression/README.md" />
       </list>
     </option>
@@ -66,7 +74,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,17 +84,13 @@
             <path>
               <item name="ML_From_Scratch" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_From_Scratch" type="462c0819:PsiDirectoryNode" />
-              <item name="K-Means_Clustering" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML_From_Scratch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML_From_Scratch" type="462c0819:PsiDirectoryNode" />
               <item name="Linear_Regression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,18 +190,19 @@
       <workItem from="1556738917140" duration="3054000" />
       <workItem from="1556742185997" duration="78000" />
       <workItem from="1556796341375" duration="3049000" />
+      <workItem from="1556810536330" duration="767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23922000" />
+    <option name="totallyTimeSpent" value="24689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49295774" visible="true" weight="0.096481875" />
-      <window_info id="Structure" order="1" sideWeight="0.5070422" side_tool="true" visible="true" weight="0.096481875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4907909" visible="true" weight="0.09754797" />
+      <window_info id="Structure" order="1" sideWeight="0.5092091" side_tool="true" visible="true" weight="0.09754797" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -216,9 +220,9 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="-1563" y="199" width="1206" height="641" id="SciView" order="3" sideWeight="0.69339114" visible="true" weight="0.19936034" />
+      <window_info anchor="right" x="-1563" y="199" width="1206" height="641" id="SciView" order="3" sideWeight="0.6912243" visible="true" weight="0.19936034" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.3066089" side_tool="true" visible="true" weight="0.19936034" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.30877572" side_tool="true" visible="true" weight="0.19936034" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,62 +254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="537" selection-start-line="537" selection-end-line="537" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Decision_Trees/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gradient_Boosting/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/K-Nearest_Neighbors/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logistic_Regression/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Naive_Bayes_Classifier/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Random_Forest/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Support_Vector_Machine/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -370,8 +318,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="476">
-            <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <first_editor relative-caret-position="68">
+            <caret line="4" selection-start-line="4" selection-end-line="7" />
           </first_editor>
           <second_editor />
         </state>
@@ -380,8 +328,78 @@
     <entry file="file://$PROJECT_DIR$/K-Means_Clustering/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="493">
-            <caret line="29" selection-start-line="29" selection-end-line="29" selection-end-column="70" />
+          <first_editor relative-caret-position="822">
+            <caret line="77" selection-start-line="77" selection-end-line="77" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/K-Nearest_Neighbors/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="187">
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Random_Forest/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="187">
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Support_Vector_Machine/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="153">
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gradient_Boosting/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="153">
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Decision_Trees/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Naive_Bayes_Classifier/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="204">
+            <caret line="12" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logistic_Regression/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="170">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
         </state>
@@ -390,7 +408,7 @@
     <entry file="file://$PROJECT_DIR$/Linear_Regression/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="788">
+          <first_editor relative-caret-position="816">
             <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
           </first_editor>
           <second_editor />

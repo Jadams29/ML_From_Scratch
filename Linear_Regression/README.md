@@ -44,6 +44,9 @@ y_deviation = (y - y_mean)
 
 #### Y Intercept
 
-<img src="img/Y_Intercept.png" width="320" height="120">
+<img src="img/Y_Intercept.png" width="260" height="80">
 
 
+
+[![Licensed under the MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Microsoft/BosqueLanguage/blob/master/LICENSE.txt)
+[![PR's Welcome](https://img.shields.io/badge/PRs%20-welcome-brightgreen.svg)](#contribute)
