@@ -47,7 +47,7 @@ b_1 = (sumation(Deviation Product)/sumation(x_deviation^2))
 
 #### Y Intercept
 
-<img src="img/Y_Intercept.png" width="260" height="80">
+<img src="img/Y_Intercept.png" width="260" height="60">
 
 ```python
 b_0 = y_mean - (b_1 * x_mean)
