@@ -5,12 +5,14 @@
 
 #### Least Squares
 
-<img src="img/Least_Square_Formula.png" width="320" height="120">
+<img src="img/Least_Square_Formula.png" width="320" height="80">
 
-minimize the sumation of (actual_y - predicted_y)^2
+For every data point you take the known y value and subtract the predicted y value then square the result.
+We then add up all of the results and try to minimize this summation.
+
 ```python
 # Not actual code
-min(sum([(actual_y - predicted_y)^2]))
+min(sumation([(actual_y - predicted_y)^2]))
 ```
 
 #### Deviation
@@ -30,17 +32,26 @@ y_deviation = (y - y_mean)
 
 #### Expanded Slope
 
-<img src="img/Expanded_Slope_Formula.png" width="320" height="120">
+<img src="img/Expanded_Slope_Formula.png" width="320" height="80">
 
 <img src="img/Expanded_Slope_Formula_Explained.png" width="320" height="120">
 
 ```python
+# Not actual code
+# Slope expanded out
+b_1 = (sumation(x-x_mean)(y-y_mean))/(sumation((x-x_mean)^2))
 
+# Exactly the same as
+b_1 = (sumation(Deviation Product)/sumation(x_deviation^2))
 ```
 
 #### Y Intercept
 
 <img src="img/Y_Intercept.png" width="260" height="80">
+
+```python
+b_0 = y_mean - (b_1 * x_mean)
+```
 
 
 
