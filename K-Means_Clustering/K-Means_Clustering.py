@@ -10,7 +10,7 @@ if __name__ == "__main__":
         generate_data = input("Would you like to generate data? (Yes or No)")
 
         if generate_data.lower() in ['yes', 'y']:
-            dimensions = input("Enter the dimensions for your data. (eg. 3 3 3 would be a 3 by 3 by 3 matrix)")
+            dimensions = input("Enter the number of data points to generate: ")
 
     nodes = np.random.randint(0, 1000, size=(2, 500))
     # We are vectorizing the Node class ~~ [Node(), Node(),Node(),...,(n+1)Node()]
