@@ -13,7 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Random_Forest" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Support_Vector_Machine" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (CSE 6242 Group Project)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
