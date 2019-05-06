@@ -16,6 +16,8 @@ class LinearRegression:
         self.sumOfSquaresRegression = None      # The sum of the squares due to regression
         self.sumOfSquaresError = None
         self.sumOfSquaresTotal = None
+        self.meanSquareError = None
+        self.standardError = None
         self.xMean = None
         self.yMean = None
         self.centroid = None
@@ -24,6 +26,32 @@ class LinearRegression:
         self.yStandardDeviation = None
         self.xZScore = None
         self.yZScore = None
+
+    def get_meanSquareError(self):
+        if self.meanSquareError is None:
+            self.set_sumOfSquaresError()
+        return self.meanSquareError
+
+    def set_meanSquareError(self):
+        if self.sumOfSquaresError is None:
+            self.set_sumOfSquaresError()
+        n = 6       # N is the number of data points
+        # N - 2 since this is simple linear regression we always subtract 2,
+        #       which is the degrees of freedom. We are also using sample data, if we
+        #       were using population data we could just divide by N
+        self.meanSquareError = self.get_sumOfSquaresError()/(n-2)
+        return
+
+    def get_standardError(self):
+        if self.standardError is None:
+            self.set_standardError()
+        return self.standardError
+
+    def set_standardError(self):
+        if self.meanSquareError is None:
+            self.set_meanSquareError()
+        self.standardError = np.sqrt(self.meanSquareError)
+        return
 
     def get_xZScores(self):
         if self.xZScore is None:

@@ -38,4 +38,6 @@ if __name__ == "__main__":
     testObject.get_xZScores()
     testObject.get_yZScores()
     testObject.graph_zScores()
+    testObject.set_meanSquareError()
+    testObject.set_standardError()
     print()
