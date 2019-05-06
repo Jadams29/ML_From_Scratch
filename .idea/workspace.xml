@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38103053-f810-4fbd-b4e7-12912b7e8835" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML_From_Scratch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML_From_Scratch.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linear_Regression/scripts.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linear_Regression/Linear_Regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -36,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="164" column="28" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="28" />
+            <state relative-caret-position="4213">
+              <caret line="253" column="14" lean-forward="true" selection-start-line="253" selection-start-column="14" selection-end-line="253" selection-end-column="14" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -76,8 +72,8 @@
         <option value="$PROJECT_DIR$/Linear_Regression/README.md" />
         <option value="C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py" />
         <option value="$PROJECT_DIR$/Linear_Regression/scripts.py" />
-        <option value="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" />
         <option value="$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py" />
+        <option value="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" />
       </list>
     </option>
   </component>
@@ -245,16 +241,15 @@
       <workItem from="1556888648298" duration="673000" />
       <workItem from="1556893473933" duration="6000" />
       <workItem from="1557093053492" duration="53000" />
-      <workItem from="1557093119629" duration="8538000" />
+      <workItem from="1557093119629" duration="11207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40715000" />
+    <option name="totallyTimeSpent" value="43384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4857143" visible="true" weight="0.100520834" />
       <window_info id="Structure" order="1" sideWeight="0.51428574" side_tool="true" weight="0.100520834" />
@@ -262,7 +257,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33227512" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53862435" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -275,9 +270,9 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="-1563" y="199" width="1206" height="641" id="SciView" order="3" sideWeight="0.5245642" visible="true" weight="0.33958334" />
+      <window_info anchor="right" x="-1563" y="199" width="1206" height="641" id="SciView" order="3" sideWeight="0.82222223" visible="true" weight="0.47708333" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.47543582" side_tool="true" visible="true" weight="0.33958334" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.17777778" side_tool="true" visible="true" weight="0.47708333" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,19 +338,14 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Linear_Regression/Linear_Regression.py</url>
-          <line>35</line>
+          <line>40</line>
           <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ML_From_Scratch$Linear_Regression.coverage" NAME="Linear_Regression Coverage Results" MODIFIED="1557103168480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_Regression" />
+    <SUITE FILE_PATH="coverage/ML_From_Scratch$Linear_Regression.coverage" NAME="Linear_Regression Coverage Results" MODIFIED="1557105660618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_Regression" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/numpy/core/numeric.py">
@@ -533,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Linear_Regression/Linear_Regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -543,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="164" column="28" selection-start-line="164" selection-start-column="28" selection-end-line="164" selection-end-column="28" />
+        <state relative-caret-position="4213">
+          <caret line="253" column="14" lean-forward="true" selection-start-line="253" selection-start-column="14" selection-end-line="253" selection-end-column="14" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>

@@ -19,6 +19,77 @@ class LinearRegression:
         self.xMean = None
         self.yMean = None
         self.centroid = None
+        self.coefficientOfDetermination = None      # The R^2 value
+        self.xStandardDeviation = None
+        self.yStandardDeviation = None
+        self.xZScore = None
+        self.yZScore = None
+
+    def get_xZScores(self):
+        if self.xZScore is None:
+            self.set_xZScores()
+        return self.xZScore
+
+    def set_xZScores(self):
+        if self.xStandardDeviation is None:
+            self.get_xStandardDeviation()
+        if self.xMean is None:
+            self.get_xMean()
+        self.xZScore = (self.Data[0] - self.xMean) / self.xStandardDeviation
+        return
+
+    def get_yZScores(self):
+        if self.yZScore is None:
+            self.set_yZScores()
+        return self.yZScore
+
+    def set_yZScores(self):
+        if self.yStandardDeviation is None:
+            self.get_yStandardDeviation()
+        if self.yMean is None:
+            self.get_yMean()
+        self.yZScore = (self.Data[1] - self.yMean) / self.yStandardDeviation
+        return
+
+    def get_yStandardDeviation(self):
+        if self.yStandardDeviation is None:
+            self.set_yStandardDeviation()
+        return self.yStandardDeviation
+
+    def set_yStandardDeviation(self):
+        variance = np.sum(np.square(self.Data[1]-self.yMean) / len(self.Data[1]))
+        self.yStandardDeviation = np.sqrt(variance)
+        return
+
+    def get_xStandardDeviation(self):
+        if self.xStandardDeviation is None:
+            self.set_xStandardDeviation()
+        return self.xStandardDeviation
+
+    def set_xStandardDeviation(self):
+        variance = np.sum(np.square(self.Data[0]-self.xMean) / len(self.Data[0]))
+        self.xStandardDeviation = np.sqrt(variance)
+        return
+
+    def get_zScoreValue(self, XorY, value):
+        if XorY in ["X", "x"]:
+            (value - self.xMean) / self.get_xStandardDeviation()
+        else:
+            (value - self.yMean) / self.get_yStandardDeviation()
+
+    def get_coefficientOfDetermination(self):
+        if self.coefficientOfDetermination is None:
+            self.set_coefficientOfDetermination()
+        return self.coefficientOfDetermination
+
+    def set_coefficientOfDetermination(self):
+        if self.sumOfSquaresRegression is None:
+            self.set_sumOfSquaresRegression()
+        if self.sumOfSquaresTotal is None:
+            self.set_sumOfSquaresTotal()
+        self.coefficientOfDetermination = self.sumOfSquaresRegression/self.sumOfSquaresTotal
+        return
+
 
     def get_sumOfSquaresTotal(self):
         if self.SST is None:
@@ -180,4 +251,10 @@ class LinearRegression:
             y2 = (self.slope * x2) - self.yIntercept
             plt.plot([x1, x2], [y1, y2], color='r')
             plt.show()
+        return
+
+    def graph_zScores(self):
+        plt.figure()
+        plt.scatter(self.get_xZScores(), self.get_yZScores())
+        plt.show()
         return
