@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="38103053-f810-4fbd-b4e7-12912b7e8835" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +16,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Linear_Regression/Linear_Regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
+            <state relative-caret-position="660">
               <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -29,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+            <state relative-caret-position="238">
+              <caret line="113" column="78" selection-start-line="113" selection-start-column="78" selection-end-line="113" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -69,8 +68,8 @@
         <option value="$PROJECT_DIR$/Linear_Regression/README.md" />
         <option value="C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py" />
         <option value="$PROJECT_DIR$/Linear_Regression/scripts.py" />
-        <option value="$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py" />
         <option value="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" />
+        <option value="$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py" />
       </list>
     </option>
   </component>
@@ -239,15 +238,16 @@
       <workItem from="1556893473933" duration="6000" />
       <workItem from="1557093053492" duration="53000" />
       <workItem from="1557093119629" duration="11207000" />
-      <workItem from="1557178050982" duration="2543000" />
+      <workItem from="1557178050982" duration="3508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45927000" />
+    <option name="totallyTimeSpent" value="46892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4857143" visible="true" weight="0.100520834" />
       <window_info id="Structure" order="1" sideWeight="0.51428574" side_tool="true" weight="0.100520834" />
@@ -519,20 +519,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linear_Regression/Linear_Regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="660">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="113" column="78" selection-start-line="113" selection-start-column="78" selection-end-line="113" selection-end-column="78" />
         </state>
       </provider>
     </entry>

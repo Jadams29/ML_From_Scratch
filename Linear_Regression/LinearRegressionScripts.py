@@ -111,6 +111,7 @@ class LinearRegression:
         return self.coefficientOfDetermination
 
     def set_coefficientOfDetermination(self):
+        # This is R^2 it is the measure of variability explained by the model.
         if self.sumOfSquaresRegression is None:
             self.set_sumOfSquaresRegression()
         if self.sumOfSquaresTotal is None:
