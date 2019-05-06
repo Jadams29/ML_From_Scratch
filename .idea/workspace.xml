@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38103053-f810-4fbd-b4e7-12912b7e8835" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,23 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Linear_Regression/Linear_Regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
+            <state relative-caret-position="269">
               <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="113" column="78" selection-start-line="113" selection-start-column="78" selection-end-line="113" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -68,8 +59,8 @@
         <option value="$PROJECT_DIR$/Linear_Regression/README.md" />
         <option value="C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py" />
         <option value="$PROJECT_DIR$/Linear_Regression/scripts.py" />
-        <option value="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" />
         <option value="$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py" />
+        <option value="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" />
       </list>
     </option>
   </component>
@@ -238,16 +229,15 @@
       <workItem from="1556893473933" duration="6000" />
       <workItem from="1557093053492" duration="53000" />
       <workItem from="1557093119629" duration="11207000" />
-      <workItem from="1557178050982" duration="3508000" />
+      <workItem from="1557178050982" duration="4485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46892000" />
+    <option name="totallyTimeSpent" value="47869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4857143" visible="true" weight="0.100520834" />
       <window_info id="Structure" order="1" sideWeight="0.51428574" side_tool="true" weight="0.100520834" />
@@ -268,9 +258,9 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="-1563" y="199" width="1206" height="641" id="SciView" order="3" sideWeight="0.81880736" visible="true" weight="0.47708333" />
+      <window_info anchor="right" x="-1563" y="199" width="1206" height="641" id="SciView" order="3" sideWeight="0.5825688" visible="true" weight="0.47708333" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.18119267" side_tool="true" visible="true" weight="0.47708333" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.4174312" side_tool="true" visible="true" weight="0.47708333" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,46 +285,6 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py</url>
-          <line>571</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py</url>
-          <line>537</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py</url>
-          <line>541</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py</url>
-          <line>551</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py</url>
-          <line>554</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py</url>
-          <line>558</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py</url>
-          <line>569</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py</url>
-          <line>550</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Linear_Regression/Linear_Regression.py</url>
           <line>42</line>
           <option name="timeStamp" value="33" />
@@ -343,7 +293,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ML_From_Scratch$Linear_Regression.coverage" NAME="Linear_Regression Coverage Results" MODIFIED="1557181331019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_Regression" />
+    <SUITE FILE_PATH="coverage/ML_From_Scratch$Linear_Regression.coverage" NAME="Linear_Regression Coverage Results" MODIFIED="1557186037743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_Regression" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/numpy/core/numeric.py">
@@ -481,13 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="537" column="24" lean-forward="true" selection-start-line="537" selection-start-column="24" selection-end-line="537" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linear_Regression/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -519,20 +462,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linear_Regression/Linear_Regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="113" column="78" selection-start-line="113" selection-start-column="78" selection-end-line="113" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/datasets/samples_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="569" selection-start-line="569" selection-end-line="569" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linear_Regression/Linear_Regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

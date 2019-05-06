@@ -20,15 +20,15 @@ if __name__ == "__main__":
 
     # test = np.random.standard_normal
     #
-    # X, y = make_regression(n_samples=100, n_features=1, noise=20)   # Generate regression dataset
-    # X = np.ravel(X)
+    X, y = make_regression(n_samples=1000, n_features=1, noise=15)   # Generate regression dataset
+    X = np.ravel(X)
     # pyplot.scatter(X, y)    # Plot regression dataset
     # pyplot.show()   # Display chart
-    # print()
+    print()
 
-    data = np.array([[34, 108, 64, 88, 99, 51], [5, 17, 11, 8, 14, 5]], np.int32)
+    # data = np.array([[34, 108, 64, 88, 99, 51], [5, 17, 11, 8, 14, 5]], np.int32)
+    data = np.asarray([X, y])
     testObject = LinearRegression(data)
-    print(testObject.get_yValue(74))
     testObject.graph_data(True)
     testObject.set_yIntercept()
     testObject.set_sumOfSquaresTotal()
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     testObject.get_xStandardDeviation()
     testObject.get_xZScores()
     testObject.get_yZScores()
-    testObject.graph_zScores()
+    # testObject.graph_zScores()
     testObject.set_meanSquareError()
     testObject.set_standardError()
     print()
