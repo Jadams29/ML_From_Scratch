@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38103053-f810-4fbd-b4e7-12912b7e8835" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ML_From_Scratch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML_From_Scratch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +19,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Linear_Regression/Linear_Regression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/Multiple_Regression/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -94,7 +94,7 @@
             <path>
               <item name="ML_From_Scratch" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_From_Scratch" type="462c0819:PsiDirectoryNode" />
-              <item name="Linear_Regression" type="462c0819:PsiDirectoryNode" />
+              <item name="Multiple_Regression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -229,23 +229,23 @@
       <workItem from="1556893473933" duration="6000" />
       <workItem from="1557093053492" duration="53000" />
       <workItem from="1557093119629" duration="11207000" />
-      <workItem from="1557178050982" duration="4485000" />
+      <workItem from="1557178050982" duration="5100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47869000" />
+    <option name="totallyTimeSpent" value="48484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4857143" visible="true" weight="0.100520834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4857143" visible="true" weight="0.100520834" />
       <window_info id="Structure" order="1" sideWeight="0.51428574" side_tool="true" weight="0.100520834" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.53862435" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53862435" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -258,9 +258,9 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="-1563" y="199" width="1206" height="641" id="SciView" order="3" sideWeight="0.5825688" visible="true" weight="0.47708333" />
+      <window_info anchor="right" x="-1563" y="199" width="1206" height="641" id="SciView" order="3" sideWeight="0.584127" visible="true" weight="0.47708333" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.4174312" side_tool="true" visible="true" weight="0.47708333" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.41587302" side_tool="true" visible="true" weight="0.47708333" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,6 +483,14 @@
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multiple_Regression/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
