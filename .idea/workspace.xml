@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="38103053-f810-4fbd-b4e7-12912b7e8835" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/ML_From_Scratch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML_From_Scratch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multiple_Regression/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Multiple_Regression/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,18 +15,15 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ML_From_Scratch$Linear_Regression.coverage" NAME="Linear_Regression Coverage Results" MODIFIED="1556822765808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_Regression" />
+    <SUITE FILE_PATH="coverage/ML_From_Scratch$TestScript.coverage" NAME="TestScript Coverage Results" MODIFIED="1557253950705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ML_From_Scratch$K_Means_Clustering.coverage" NAME="K-Means_Clustering Coverage Results" MODIFIED="1556742245504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/K-Means_Clustering" />
+    <SUITE FILE_PATH="coverage/ML_From_Scratch$Test_Script.coverage" NAME="Test_Script Coverage Results" MODIFIED="1557251268198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Multiple_Regression/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/TestScript.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -61,14 +59,19 @@
         <option value="$PROJECT_DIR$/Linear_Regression/scripts.py" />
         <option value="$PROJECT_DIR$/Linear_Regression/LinearRegressionScripts.py" />
         <option value="$PROJECT_DIR$/Linear_Regression/Linear_Regression.py" />
+        <option value="$PROJECT_DIR$/Multiple_Regression/README.md" />
+        <option value="$PROJECT_DIR$/Test_Script.py" />
+        <option value="$PROJECT_DIR$/Multiple_Regression/Multiple_Regression.py" />
+        <option value="$PROJECT_DIR$/Multiple_Regression/Multiple_RegressionScripts.py" />
+        <option value="$PROJECT_DIR$/TestScript.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="479" />
+    <option name="y" value="325" />
+    <option name="width" value="1177" />
+    <option name="height" value="705" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -89,7 +92,7 @@
             <path>
               <item name="ML_From_Scratch" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML_From_Scratch" type="462c0819:PsiDirectoryNode" />
-              <item name="K-Means_Clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="Linear_Regression" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ML_From_Scratch" type="b2602c69:ProjectViewProjectNode" />
@@ -130,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Linear_Regression">
+  <component name="RunManager" selected="Python.TestScript">
     <configuration name="K-Means_Clustering" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_From_Scratch" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,6 +178,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TestScript" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_From_Scratch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestScript.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_Script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_From_Scratch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_Script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="ML_From_Scratch" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,6 +246,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TestScript" />
+        <item itemvalue="Python.Test_Script" />
         <item itemvalue="Python.Linear_Regression" />
         <item itemvalue="Python.K-Means_Clustering" />
       </list>
@@ -230,22 +279,27 @@
       <workItem from="1557093053492" duration="53000" />
       <workItem from="1557093119629" duration="11207000" />
       <workItem from="1557178050982" duration="5100000" />
+      <workItem from="1557235365093" duration="6801000" />
+      <workItem from="1557252879269" duration="1118000" />
+      <workItem from="1557356647589" duration="599000" />
+      <workItem from="1557358927594" duration="593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48484000" />
+    <option name="totallyTimeSpent" value="57595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4857143" visible="true" weight="0.100520834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4857143" visible="true" weight="0.10364583" />
       <window_info id="Structure" order="1" sideWeight="0.51428574" side_tool="true" weight="0.100520834" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.53862435" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48251748" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -258,9 +312,9 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="-1563" y="199" width="1206" height="641" id="SciView" order="3" sideWeight="0.584127" visible="true" weight="0.47708333" />
+      <window_info anchor="right" x="-1563" y="199" width="1206" height="641" id="SciView" order="3" sideWeight="0.5777778" visible="true" weight="0.20104167" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.41587302" side_tool="true" visible="true" weight="0.47708333" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.42222223" side_tool="true" visible="true" weight="0.20104167" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +342,11 @@
           <url>file://$PROJECT_DIR$/Linear_Regression/Linear_Regression.py</url>
           <line>42</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TestScript.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -421,16 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Logistic_Regression/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="170">
-            <caret line="10" selection-start-line="10" selection-end-line="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Linear_Regression/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -486,13 +535,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Multiple_Regression/README.md">
+    <entry file="file://$PROJECT_DIR$/Logistic_Regression/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="170">
+            <caret line="10" lean-forward="true" selection-end-line="10" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multiple_Regression/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="99" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Script.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/timeit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multiple_Regression/Multiple_Regression.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multiple_Regression/Multiple_RegressionScripts.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestScript.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -14,7 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Support_Vector_Machine" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Multiple_Regression" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6 (CSE 6242 Group Project)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (CSE6242 Group Project)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
