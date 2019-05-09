@@ -13,6 +13,16 @@ class Centroid:
         self.x = self.centroid_node.x
         self.y = self.centroid_node.y
         self.mean = mean
+        self.sumSquareError = None
+
+    def get_sumSquareError(self):
+        if self.sumSquareError is None:
+            self.set_sumSquareError()
+        return self.sumSquareError
+
+    def set_sumSquareError(self):
+
+        return
 
     def describe(self):
         print()
