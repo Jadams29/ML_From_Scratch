@@ -1,3 +1,5 @@
+import numpy as np
+
 def getIslands(data):
     numIslands = 0
     visitedValues = [0]
@@ -22,8 +24,12 @@ if __name__ == '__main__':
               [0, 5, 0, 0, 6, 6],
               [5, 5, 5, 0, 0, 6],
               [5, 5, 5, 0, 0, 6]]
-
-    getIslands(matrix)
+    temp = np.loadtxt("test.csv", delimiter=",")
+    temp_wUnpack = np.loadtxt("test.csv", delimiter=",", unpack=True)
+    # temp_data = np.random.randint(10, size=(800, 6000))
+    # np.savetxt("test1.csv", temp_data, delimiter=",")
+    print()
+    # getIslands(matrix)
 
 
     print()
